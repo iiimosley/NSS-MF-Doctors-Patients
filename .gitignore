@@ -1,0 +1,6 @@
+node_modules/
+.DS_Store
+css/
+dist/project.js
+.sass-cache
+package-lock.json

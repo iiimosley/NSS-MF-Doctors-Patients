@@ -1,0 +1,8 @@
+<a href="#">&larr; doctor portal</a>
+
+<h3>Patients of Dr. <span class="cap">{{doctor}}</span></h3>
+
+<div class="patients" ng-repeat="pat in patients">
+    <h4>{{pat.first_name}} {{pat.last_name}}</h4>
+    <p><span class="sick">Ailment</span>: {{pat.ailment}}</p>
+</div>

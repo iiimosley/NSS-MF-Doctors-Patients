@@ -1,0 +1,8 @@
+<h1>Sacred Heart Staff</h1>
+
+<h3>Doctors at your call...</h3>
+
+<div class="docs" ng-repeat="doc in doctors" id="{{doc.last_name}}">
+    <a href="#!/patients/{{doc.id}}">{{doc.first_name}} {{doc.last_name}}</a>
+    <p><strong>Practice:</strong> {{doc.speciality}}</p>
+</div>
