@@ -6,3 +6,4 @@ Implementing Angular, create a basic application that lists all of the doctors (
 ### Required Components
 + Firebase REST API query to list all doctors
 + Firebase REST API query to all patients for specified doctor utilizing `orderBy` & `equalTo` parameters
+
